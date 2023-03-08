@@ -1,0 +1,55 @@
+.rodape__titulo {
+    text-align: center;
+    margin: 1em;
+}
+
+.redes-sociais__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+.rodape__redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__links {
+    padding: 1em;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--branco);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 0.5em 1em 1em 1em;
+    line-height: 2em;
+}
+
+@media screen and (min-width:768px) {
+    .rodape__redes-sociais {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    
+    .rodape {
+        display: grid;
+        grid-template-columns:4fr 50%;
+        align-items: center;
+        justify-content: end;
+        
+    }
+
+    
+ 
+   
+}

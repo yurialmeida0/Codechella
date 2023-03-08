@@ -1,0 +1,469 @@
+.banner-codechella__mobile{
+    width: 100vw;
+}
+
+.banner-artista__banda{
+    width: 90vw;
+    justify-content: center;
+}
+
+.banner-artista{
+    display: flex;
+    justify-content: center;
+    padding: 2em 2em 0 2em;
+}
+
+.datas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: center;
+    text-align:justify;
+}
+
+.datas__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;  
+}
+
+.datas__texto {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--branco);
+    text-align: center;
+    justify-content:center;
+    padding: 0.5em; 
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.botao {
+    justify-content: center;
+    width: 60vw;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: var(--roxo);
+    text-align: start;
+    border-radius: 16px; 
+}
+
+.botao__ingresso {
+   color: var(--branco);
+   font-size: 20px ;
+   font-family: 'Raleway', sans-serif;
+   text-decoration: none;
+   margin-left: 0;
+   
+}
+
+.botao__imagem {
+    position: absolute;
+    margin-left: 0.9em;
+}
+
+.lineup__titulo {
+    padding: 1em 0;
+    font-family: 'Calistoga';
+    color: var(--branco);
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lineup__sabado-titulo {
+    font-family: 'Calistoga';
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--branco);
+    background-color: var(--verde);
+    text-align: center;
+    margin: 1em;
+    justify-content: center;
+    padding: 0.6em 0;
+}
+
+.lineup__domingo-titulo {
+    font-family: 'Calistoga';
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--branco);
+    background-color: var(--verde);
+    text-align: center;
+    padding: 0.5em;
+    margin: 0 0.3em
+}
+
+.headliner, .headliner2 {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: var(--branco);
+}
+
+.lineup__sabado, 
+.lineup__domingo {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.lineup__sabado-artista, .lineup__domingo-artista {
+    padding: 0.5em;
+}
+
+.lineup__sabado-artista:nth-child(n+3):nth-child(-n+6) {
+    color: var(--branco);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lineup__sabado-artista:nth-child(n+7):nth-child(-n+10) {
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lineup__sabado-artista:nth-child(n+11):nth-child(-n+14) {
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lineup__domingo-artista:nth-child(n+3):nth-child(-n+7) {
+    color: var(--branco);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lineup__domingo-artista:nth-child(n+8):nth-child(-n+11) {
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lineup__domingo-artista:nth-child(n+12):nth-child(-n+15) {
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imagem__guitarra {
+    width: 100vw;
+    padding: 1em 0 0 0;
+    opacity: 0.4;
+}
+
+.imagem__guitarra-768{
+    display: none;
+}
+
+.banner-codechella__mobile{
+    width: 100vw;
+}
+
+.banner-artista__banda{
+    width: 90vw;
+    justify-content: center;
+}
+
+.banner-artista{
+    display: flex;
+    justify-content: center;
+    padding: 2em 2em 0 2em;
+}
+
+.banner-codechella__768, .banner-codechella__1440, .banner-artista__banda-768, .lista-opcoes__link, .imagem__guitarra-1440{
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .banner-codechella__1440{
+        display: none;
+    }
+    .banner-codechella__mobile {
+        display: none;
+    }
+
+    .banner-artista__banda {
+        display: none;
+    }
+
+    .lista-opcoes__link {
+        color: var(--branco);
+        text-decoration: none;
+    }
+
+    .banner-artista__banda-768 {
+        display: block;
+    }
+
+    .banner-codechella__768 {
+        display: block;
+        width: 100vw;
+    }
+
+    .datas__titulo {
+        margin: 0 3em
+    }
+
+    .datas__texto {
+        margin: 2em 2em 0 2em;
+    }
+
+    .botao {
+        width: 28vw;
+    }
+
+    .lineup__sabado{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .lineup__sabado-titulo {
+        font-size: 48px;
+        padding: 0.3em;
+        position: relative;
+        margin:0 3.5em;
+    }
+
+    .lineup__sabado-titulo::before,  .lineup__sabado-titulo::after {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 1px;
+        background: var(--verde);
+        left: -120px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .lineup__sabado-titulo::after {
+        left: unset;
+        right: -120px;
+    }
+
+    .objeto {
+        padding-right: 3em;
+    }
+
+    .objeto1 {
+        padding-left: 2.5em;
+    }  
+
+    .lineup__domingo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .lineup__domingo-titulo {
+        font-size: 48px;
+        padding: 0.3em;
+        position: relative;
+    }
+    
+    .lineup__domingo-titulo::before,  .lineup__domingo-titulo::after {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 1px;
+        background: var(--verde);
+        left: -110px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .lineup__domingo-titulo::after {
+        left: unset;
+        right: -110px;
+    }
+
+    .headliner2 {
+        padding-right: 4em;
+        padding-left: 4em;
+        padding-top: 1.3em;
+    }
+    
+    .imagem__guitarra{
+        display: none;
+    }
+
+    .imagem__guitarra-768{
+        opacity: 0.45;
+        display: block;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .banner-codechella__mobile{
+        display: none;
+    }
+    .banner-codechella__768 {
+        display: none;
+    }
+
+    .imagem__guitarra-768 {
+        display: none;
+    }
+
+    .banner-codechella__1440 {
+        display: block;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        text-align: center;
+        padding: 1.5em;
+    }
+
+    .botao {
+        width: 15vw;
+    }
+
+    .datas {
+        padding: 2em 0;
+    }
+
+    .datas__titulo {
+       margin: 0;
+       padding: 0.2em 1em 0.2em 1em;
+       flex-wrap: wrap;
+    }
+    
+    .datas__texto {
+        text-align: center;
+    }
+
+    .banner-artista__banda-768 {
+        width: 50vw;
+    }    
+
+    .lineup__sabado{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2em;
+        align-items: center;
+        padding: 1em;
+        flex-wrap: wrap;
+    }
+
+    .lineup__sabado-titulo {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        width: 27vw;
+    }
+
+    .lineup__sabado-titulo::before,  .lineup__sabado-titulo::after {
+        content: "";
+        position: absolute;
+        width: 359.5px;
+        height: 1px;
+        background: var(--verde);
+        left: -390px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .lineup__sabado-titulo::after {
+        left: unset;
+        right: -390px;
+    }
+
+    .headliner, .headliner2 { 
+        font-size: 48px;
+        font-weight: 800;        
+    }
+
+    .objeto {
+        padding: 0.5em;
+    }
+
+    .objeto1 {
+        padding:0.5em;
+    }  
+
+    .lineup__titulo {
+        font-size: 64px;
+        font-weight: 400;
+    }
+
+    .lineup__domingo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2em;
+        align-items: center;
+        padding: 2em;
+        flex-wrap: wrap;
+    }
+
+    .lineup__domingo-titulo {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        width: 30vw;
+    }
+
+    .lineup__domingo-titulo::before,  .lineup__domingo-titulo::after {
+        content: "";
+        position: absolute;
+        width: 359.5px;
+        height: 1px;
+        background: var(--verde);
+        left: -390px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .lineup__domingo-titulo::after {
+        left: unset;
+        right: -390px;
+    }
+
+    .headliner, .headliner2 {
+        padding: 1.2em 10em 0.5em 10em;
+        
+    }
+
+    .objeto2 {
+        margin-left: 0.4em;
+    }
+
+    .objeto3 {
+        margin-left: 5em;
+    }
+
+    .objeto4 {
+        margin-right: 6em;
+    }
+
+    .imagem__guitarra-1440 {
+        width: 100vw;
+        display: block;
+        opacity: 0.4;
+    }
+
+}
