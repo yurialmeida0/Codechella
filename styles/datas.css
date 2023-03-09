@@ -2,15 +2,15 @@
     width: 100vw;
 }
 
-.banner-artista__banda{
-    width: 90vw;
-    justify-content: center;
-}
-
 .banner-artista{
     display: flex;
     justify-content: center;
     padding: 2em 2em 0 2em;
+}
+
+.banner-artista__banda{
+    width: 90vw;
+    justify-content: center;
 }
 
 .datas {
@@ -61,7 +61,6 @@
    font-family: 'Raleway', sans-serif;
    text-decoration: none;
    margin-left: 0;
-   
 }
 
 .botao__imagem {

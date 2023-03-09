@@ -1,0 +1,86 @@
+.experiencia__imagem {
+    width: 100vw;
+}
+
+.experiencia__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.acessibilidade, .sustentabilidade, .atracoes {
+    padding-bottom: 2em;
+    justify-content: center;
+}
+
+.banner__acessibilidade-mobile, .banner__sustentabilidade-mobile, .banner__atracoes-mobile {
+    padding: 1em;
+    width: 80vw;
+    margin-left: 0.75em;
+    
+}
+
+.acessibilidade__titulo, .sustentabilidade__titulo, .atracoes__titulo {
+    padding-top: 1em;
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;    
+}
+
+.acessibilidade__texto, .sustentabilidade__texto, .atracoes__texto {
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+    padding: 0 1.4em;
+}
+
+.experiencia__imagem-768, .banner__acessibilidade-mobile-768, .banner__sustentabilidade-mobile-768, .banner__atracoes-mobile-768 {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .experiencia__imagem-768 {
+        display: block;
+    }
+    
+    .banner__acessibilidade-mobile-768, .banner__sustentabilidade-mobile-768, .banner__atracoes-mobile-768 {
+        display: block;
+        padding: 1.5em 4em 0.5em 4em;
+    }
+
+    .experiencia__imagem {
+        display: none;
+    }
+
+    .banner__acessibilidade-mobile, .banner__sustentabilidade-mobile, .banner__atracoes-mobile {
+        display: none;
+    }
+
+    .acessibilidade__titulo, .sustentabilidade__titulo, .atracoes__titulo {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .acessibilidade__texto {
+        text-align: center;
+        margin: 0 5em;
+    }
+
+    .atracoes__texto{
+        margin: 0 1em;
+    }
+
+    .sustentabilidade__texto {
+        margin: 0 2em;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+}
+
+
+

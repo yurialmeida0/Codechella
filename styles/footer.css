@@ -20,6 +20,7 @@
 }
 
 .rodape__texto {
+    display: block;
     font-size: 20px;
     font-weight: 500;
     color: var(--branco);
@@ -29,6 +30,18 @@
     line-height: 2em;
 }
 
+.texto3, .texto4 {
+    display: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--branco);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 0.5em 1em 1em 1em;
+    line-height: 2em;
+}
+
+
 @media screen and (min-width:768px) {
     .rodape__redes-sociais {
         flex-direction: row;
@@ -36,20 +49,58 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .texto3 {
+        display: none;
+    }
+
+    .rodape__texto {
+        display: block;
+    }
 }
 
-@media screen and (min-width:1440px) {
-
-    
+@media screen and (min-width:1440px) {    
     .rodape {
         display: grid;
         grid-template-columns:4fr 50%;
         align-items: center;
-        justify-content: end;
+        justify-content: center;   
+    }
+
+    .texto3, .texto4{
+        display: block;
+    }
+
+    .rodape__texto {
+        display: none;
+    }
+
+    .logo__rodape {
+        grid-column: 1 / span 1;
+        grid-row: 1;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .texto3 {
+        grid-column: 2 / span 1;
+        grid-row: 1/ span 2 ;
+    }
+
+    .texto4 {
+        grid-column: 2/ span 2;
+        grid-row: 1;
+    }
+        
+   .rodape__redes-sociais{
+        grid-column: 1 / span 1;
+        grid-row: 2;
         
     }
 
+    .texto__rodape {
+        justify-content: left;
+        padding-top: 4em;
+    }
     
- 
-   
 }
