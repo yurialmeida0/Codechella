@@ -1,0 +1,213 @@
+
+.legenda__setores-titulo {
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding: 1em;
+}
+
+.legenda__setores-texto {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--branco);   
+}
+
+.legenda__setores {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em 2em 2em;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: nowrap;
+}
+
+.legenda__setores-cor {
+    padding: 1em;
+    vertical-align: middle;
+}
+ 
+
+.detalhes__titulo {
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0.5em 0.5em 0.5em;
+    line-height: 40px;
+}
+
+.titulo__principal {
+    padding-bottom: 1em;
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0.5em 0.5em 0.5em;
+    line-height: 40px;
+}
+
+.pista__imagem-mobile, .pistapremium__imagem-mobile, .cadeiras__imagem-mobile{
+    margin: 1em;
+}
+
+.pista__texto, .pistapremium__texto, .cadeiras__texto{
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.5em 2em 2em 2em;
+    line-height: 40px;
+}
+
+.setores__imagem-768, .mapa-setores__imagem-768, .pista__imagem-768, .pistapremium__imagem-768, .cadeiras__imagem-768, .setores__imagem-1440{
+    display:none;  
+}
+
+@media screen and (min-width:768px) {
+
+    .setores__imagem-mobile, .mapa-setores__imagem-mobile, .pista__imagem-mobile, .pistapremium__imagem-mobile, .cadeiras__imagem-mobile, .setores__imagem-1440 {
+        display:none;  
+    }
+
+    .setores__imagem-768 {
+        display: block;
+    }
+
+    .mapa-setores__imagem-768 {
+        display: block;
+    }
+
+    .pista__imagem-768, .pistapremium__imagem-768, .cadeiras__imagem-768{ 
+        display: block;  
+        padding: 1em;    
+    }
+
+    .setores__main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .legenda__setores-titulo {
+        text-align: left;
+        font-size: 32px;
+        font-weight: 700;
+        padding: 0.7em 0.7em 0.5em 0.7em;
+    }
+
+    .legenda__setores-cor {
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .legenda__setores {
+        margin-left: 9em; 
+        padding: 0 0 2em 0;  
+    }
+
+    .detalhes { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo__principal {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .detalhes__titulo {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .detalhes__pista, .detalhes__pista-premium, .detalhes__cadeiras {
+        display: flex;
+        flex-direction: column;    
+        flex-wrap: wrap;    
+    }
+
+    .pista__texto, .pistapremium__texto, .cadeiras__texto {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    
+    .setores__imagem-768{
+        display: none;
+    }
+    
+    .setores__imagem-1440{
+        display: block;
+        width: 100vw;
+    }
+
+    .detalhes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .mapa__setores {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: 1em;
+        width: 100vw;
+        padding: 1em;
+    }
+
+    .legenda__setores {
+        margin: 0;
+    }
+
+
+    .mapa-setores__imagem-768 {
+        margin: 0;
+        padding: 2em;
+        width: 50vw;
+    }
+
+    .detalhes {
+        display: flex;
+        padding: 0.5em 3em 1em 3em;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .detalhes__pista-premium {
+        margin: 0;
+        padding: 5em 0 0 0;
+    }
+
+    .detalhes__cadeiras{
+        padding-right: 4em;
+    }
+
+    .detalhes__pista{
+        padding-left: 4em;
+    }
+
+    .pistapremium__texto, .pista__texto, .cadeiras__texto {
+        text-align: center;
+        padding: 1em;
+    }
+
+  
+   
+  
+}
+
+
+
+
+
+
