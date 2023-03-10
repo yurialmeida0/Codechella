@@ -16,7 +16,6 @@
     padding: 1em;
     width: 80vw;
     margin-left: 0.75em;
-    
 }
 
 .acessibilidade__titulo, .sustentabilidade__titulo, .atracoes__titulo {
@@ -37,16 +36,21 @@
     padding: 0 1.4em;
 }
 
-.experiencia__imagem-768, .banner__acessibilidade-mobile-768, .banner__sustentabilidade-mobile-768, .banner__atracoes-mobile-768 {
+.experiencia__imagem-768, .banner__acessibilidade-768, .banner__sustentabilidade-768, .banner__atracoes-768 {
     display: none;
 }
+
+.experiencia__imagem-1440 {
+    display: none;
+}
+
 
 @media screen and (min-width:768px) {
     .experiencia__imagem-768 {
         display: block;
     }
     
-    .banner__acessibilidade-mobile-768, .banner__sustentabilidade-mobile-768, .banner__atracoes-mobile-768 {
+    .banner__acessibilidade-768, .banner__sustentabilidade-768, .banner__atracoes-768 {
         display: block;
         padding: 1.5em 4em 0.5em 4em;
     }
@@ -76,10 +80,116 @@
     .sustentabilidade__texto {
         margin: 0 2em;
     }
+
+    .experiencia__imagem-1440 {
+        display: none;
+    }
 }
 
 @media screen and (min-width:1440px) {
 
+    .experiencia__imagem-768 {
+        display: none;
+    }
+
+    .experiencia__imagem-1440 {
+        display: block;
+        width: 100vw;
+    }
+
+    .acessibilidade {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 2em 0 3em 2em;        
+    }
+
+    .acessibilidade__titulo, .acessibilidade__texto {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .acessibilidade__texto {
+        padding: 0;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .acessibilidade__titulo {
+        padding: 1em 1em 1em 0;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .banner__acessibilidade-768 {
+        padding-right: 2em;
+    }
+    
+    .sustentabilidade {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: right;
+        justify-content: space-around;
+        padding: 2em;  
+    }
+
+    .sustentabilidade__titulo, .sustentabilidade__texto {
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .sustentabilidade__titulo {
+        padding: 1em 0em 1em 1em;
+        font-size: 32px;
+        font-weight: 700;
+
+    }
+    .sustentabilidade__texto {
+        padding: 0;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .banner__sustentabilidade-768 {
+        padding-left: 2em;
+    }
+
+    .atracoes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2em 0 3em 2em; 
+    }
+
+    .atracoes__titulo, .atracoes__texto {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .atracoes__texto {
+        padding-left: 0;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 1em 0 0;
+    }
+
+    .atracoes__titulo {
+        padding: 1em 1em 1em 0;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .banner__atracoes-768 {
+        padding-right: 2em;
+    }
 }
 
 
