@@ -74,7 +74,6 @@
 .detalhes {
     display: flex;
     flex-direction: column;
-    
 }
 
 .detalhes__pista, .detalhes__pista-premium, .detalhes__cadeiras {
