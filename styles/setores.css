@@ -1,3 +1,10 @@
+.setores__imagem-mobile {
+    width: 100vw;
+}
+
+.mapa-setores__imagem-mobile {
+    width: 100vw;    
+}
 
 .legenda__setores-titulo {
     color: var(--branco);
@@ -28,7 +35,6 @@
     vertical-align: middle;
 }
  
-
 .detalhes__titulo {
     color: var(--branco);
     font-size: 32px;
@@ -63,6 +69,16 @@
 
 .setores__imagem-768, .mapa-setores__imagem-768, .pista__imagem-768, .pistapremium__imagem-768, .cadeiras__imagem-768, .setores__imagem-1440{
     display:none;  
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.detalhes__pista, .detalhes__pista-premium, .detalhes__cadeiras {
+    text-align: center;    
 }
 
 @media screen and (min-width:768px) {

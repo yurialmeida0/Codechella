@@ -3,6 +3,7 @@
 @import url("/styles/footer.css");
 @import url("/styles/experiencia.css");
 @import url("/styles/setores.css");
+@import url("/styles/informacoes.css");
 
 :root {
     --roxo:#4650BD;

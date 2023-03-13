@@ -1,0 +1,42 @@
+.accordion {
+    background-color: var(--roxo);
+    color: var(--branco);
+    padding: 1em;
+    width: 90vw;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.panel {
+    padding: 1em;
+    background-color: white;
+    width: 79vw;
+    display: none;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.active, .accordion:hover {
+    background-color: var(--roxo-claro);
+}
+
+  
+
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+   
+}
