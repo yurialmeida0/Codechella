@@ -105,6 +105,7 @@
 
     .informacoes__imagem-1440 {
         display: block;
+        width: 100vw;
     }
 
     .informacoes__imagem-768 {
@@ -126,7 +127,7 @@
     }
 
     .panel {
-        width: 67.2vw;
+        width: 67.5vw;
         margin: 0;
         font-weight: 500;
     }

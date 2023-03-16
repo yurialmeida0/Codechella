@@ -1,3 +1,11 @@
+.rodape{
+    background-color: var(--roxo);
+}
+
+.logo__rodape {
+    padding: 1em;
+}
+
 .rodape__titulo {
     text-align: center;
     margin: 1em;
