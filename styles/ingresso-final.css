@@ -1,0 +1,79 @@
+.banner__ingresso-final-mobile {
+    width: 100vw;    
+}
+
+.ingresso__mensagem, .ingresso__mensagem-sub {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco);
+    font-family: 'Raleway', sans-serif;
+    padding: 2em 1em 0.5em 1em;
+    text-align: center;
+    line-height: 37.57px;
+}
+
+.ingresso__final-mobile {
+    padding: 1em 1em 0.5em 1em;
+}
+
+.banner__ingresso-final-768, .ingresso__final-768, .banner__ingresso-final-1440, .ingresso__final-1440 {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+
+    .banner__ingresso-final-768, .ingresso__final-768 {
+        display: block;
+    }
+
+    .banner__ingresso-final-mobile, .ingresso__final-mobile, .banner__ingresso-final-1440, .ingresso__final-1440{
+        display: none;
+    }
+
+    .imagem__ingresso-final {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 1em 2em;
+    }
+
+    .ingresso__final-768 {
+        padding: 1em;
+    }     
+}
+
+@media screen and (min-width:1440px) {
+
+    .banner__ingresso-final-768, .ingresso__final-768 {
+        display: none;
+    }
+
+    .banner__ingresso-final-1440 {
+        display: block;
+        width: 100vw;
+    }
+
+    .imagem__ingresso-final {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ingresso__final-1440{
+        display: block;
+        width: 55vw;
+        padding: 1em;
+    }
+
+    .ingresso__mensagem {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .ingresso__mensagem {
+        justify-content: center;
+        width: 55vw;
+        padding: 1em 1em 0.5em 1em;
+        line-height: 37.57px;
+    }    
+}
