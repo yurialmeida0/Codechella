@@ -15,8 +15,6 @@ Projeto de Página responsiva criada para o challenge front-end da alura.
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
-
 Projeto de site responsivo mobile-first,
 Tenologias utilizadas: HTML, CSS e javascript.
 
