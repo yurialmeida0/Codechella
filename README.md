@@ -5,7 +5,7 @@ Projeto de Página responsiva criada para o challenge front-end da alura.
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Codechella**
-| :label: Tecnologias | HTML, CSS, Javascript(tecnologias utilizadas)
+| :label: Tecnologias | HTML, CSS, Javascript
 | :rocket: URL         | https://codechella-one.vercel.app/
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br
 
